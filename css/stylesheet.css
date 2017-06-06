@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+.background-image {
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:0;
+    height:100%;
+    background-size: calc(100% + 50px);
+}
+
+#front-page-image {
+    background: url('../img/landing_2.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.centered {
+    width: 100px;
+    height: 100px;
+
+    /*background-color: red;*/
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: -40px;
+    right: 0;
+
+    margin: auto;
+}
+
+#text {
+    font-size: xx-large;
+    color: white;
+    font-family: Verdana;
+}
